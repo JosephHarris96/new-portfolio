@@ -1,0 +1,12 @@
+.skills-list {
+    display: flex;
+    flex: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    gap: 15px
+}
+
+.skills-images {
+    width: 150px;
+}
