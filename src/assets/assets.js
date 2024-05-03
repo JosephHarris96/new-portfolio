@@ -9,6 +9,10 @@ import mongodb from './mongodb.png'
 import nodejs from './nodejs.png'
 import react from './react.png'
 import typescript from './typescript.png'
+import selfie from './selfie.jpg'
+import gmail from './gmail.png'
+import html from './html-5.png'
+import css from './css.png'
 
 export const assets = {
     food_website,
@@ -21,26 +25,30 @@ export const assets = {
     mongodb,
     nodejs,
     react,
-    typescript
+    typescript,
+    selfie,
+    gmail,
+    html,
+    css
 }
 
 export const assetNames = [
-    'database',
-    'github',
-    'instagram',
+    'html',
+    'css',
     'javascript',
-    'linkedin',
-    'mongodb',
-    'nodejs',
     'react',
     'typescript'
+    'database',
+    'github',
+    'mongodb',
+    'nodejs',
 ];
 
 export const workContent = [
     {
         work: "Food Delivery Website",
         work_image: food_website,
-        work_details: "A fully response Food Delivery App built with React JS."
+        work_details: "A fully response Food Delivery App built with React JS.",
     },
     {
         work: "Bancone Homage",

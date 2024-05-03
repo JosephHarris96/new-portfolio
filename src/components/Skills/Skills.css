@@ -1,12 +1,21 @@
 .skills-list {
     display: flex;
+    justify-content: center;
     flex: row;
     flex-wrap: wrap;
     margin: 10px;
     padding: 10px;
-    gap: 15px
+    gap: 10%;
 }
 
 .skills-images {
     width: 150px;
+    margin-bottom: 30px;
+}
+
+.skills-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
 }

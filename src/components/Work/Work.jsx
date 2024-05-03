@@ -16,7 +16,9 @@ const Work = () => {
                         <div className="image-container">
                             <img src={workItem.work_image} alt={workItem.work} />
                         </div>
+                        <div className="work">
                         <p>{workItem.work_details}</p>
+                        </div>
                     </div>
                 ))}
             </div>
