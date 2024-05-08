@@ -11,7 +11,6 @@ html, body {
     position: relative; 
     bottom: 0; 
     left: 0; 
-    width: 100%; 
     margin-top: 20px;
   }
 
@@ -48,10 +47,11 @@ html, body {
     .footer-container {
       font-size: 14px;
       padding: 10px;
+      border-radius: 20px;
     }
   }
   
-  /* Media query for screens between 601px and 1024px (tablets) */
+
   @media screen and (min-width: 601px) and (max-width: 1024px) {
     .footer-container {
       font-size: 16px;
@@ -59,7 +59,7 @@ html, body {
     }
   }
   
-  /* Media query for screens larger than 1024px (desktops/laptops) */
+
   @media screen and (min-width: 1025px) {
     .footer-container {
       font-size: 18px;

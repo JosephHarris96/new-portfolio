@@ -1,6 +1,6 @@
 import food_website from './food_website.png';
 import bancone_website from './bancone_website.png'
-import database from './database.png'
+import sammy_portfolio from './sammy_portfolio.png'
 import github from './github.png'
 import instagram from './instagram.png'
 import javascript from './javascript.png'
@@ -17,7 +17,7 @@ import css from './css.png'
 export const assets = {
     food_website,
     bancone_website,
-    database,
+    sammy_portfolio,
     github,
     instagram,
     javascript,
@@ -37,8 +37,7 @@ export const assetNames = [
     'css',
     'javascript',
     'react',
-    'typescript'
-    'database',
+    'typescript',
     'github',
     'mongodb',
     'nodejs',
@@ -54,5 +53,11 @@ export const workContent = [
         work: "Bancone Homage",
         work_image: bancone_website,
         work_details: "A homage piece to the famous restaurant Bancone, built with JavaScript, HTML and CSS"
+    },
+    {
+        work: "Sammy Portfolio - Freelance Work",
+        work_image: sammy_portfolio,
+        work_details: "A fully functioning portfolio built for my client Sammy Gildea Trott using JavaScript and ReactJS"
     }
+
 ];

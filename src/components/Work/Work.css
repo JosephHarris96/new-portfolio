@@ -14,16 +14,23 @@
     border: none;
     padding: 10px; 
     margin: 10px; 
-    display: flex;
+    display: grid;
+    /* display: flex; */
+    grid-template-columns: repeat(auto-fill, minmax(700px, 1fr));
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center; /* Center the items horizontally */
+}
+.work-card:nth-child(3) {
+    grid-row: 2; /* Place the third grid item in the second row */
+    grid-column: 1;
+    margin-top: auto; 
 }
 
 .work-card {
     position: relative;
     overflow: hidden;
-    flex: 0 0 50%; /* Each item takes 50% of the container width */
+    flex: 0 0 45%; /* Each item takes 50% of the container width */
     padding: 10px; /* Add padding for spacing */
     box-sizing: border-box; /* Include padding and border in the element's total width */
 }
