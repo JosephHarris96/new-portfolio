@@ -21,6 +21,9 @@ const Header = () => {
         <h2>Designer and Frontend Developer</h2>
         <p>I design and code things for people to make your life easier.</p>
       </div>
+      <div className="header-hr">
+      <hr />
+      </div>
     </>
   );
 };

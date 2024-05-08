@@ -11,6 +11,7 @@
 .skills-images {
     width: 150px;
     margin-bottom: 30px;
+    transition: ease-in transform 0.2s, width 0.5s;
 }
 
 .skills-title {
@@ -18,4 +19,17 @@
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
+}
+
+.skills-list img:hover {
+    animation: shake 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+@keyframes shake {
+    0% { transform: translateX(-5px); } 
+    25% { transform: translateX(5px); } 
+    50% { transform: translateX(-5px); } 
+    75% { transform: translateX(5px); } 
+    100% { transform: translateX(0); } 
 }
