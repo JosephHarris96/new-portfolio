@@ -2,6 +2,7 @@ import food_website from './food_website.png';
 import bancone_website from './bancone_website.png'
 import sammy_portfolio from './sammy_portfolio.png'
 import tic_tac_toe from './tic_tac_toe.png'
+import typescript_todo_app from './typescript_todo_app.png'
 import github from './github.png'
 import instagram from './instagram.png'
 import javascript from './javascript.png'
@@ -20,6 +21,7 @@ export const assets = {
     bancone_website,
     sammy_portfolio,
     tic_tac_toe,
+    typescript_todo_app,
     github,
     instagram,
     javascript,
@@ -65,6 +67,11 @@ export const workContent = [
         work: "Tic-Tac-Toe || React.js",
         work_image: tic_tac_toe,
         work_details: "Your favourite childhood game of Tic-Tac-Toe built with React.js. Bringing your young days back to life!"
+    },
+    {
+        work: "Todo List Application || TypeScript",
+        work_image: typescript_todo_app,
+        work_details: "A Front End TypeScript Todo Application, allowing you to check off all your daily tasks and delete where necessary"
     }
 
 ];

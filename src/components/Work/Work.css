@@ -62,6 +62,20 @@
 }
 
 .work-card p {
-    margin-top: 10px; /* Add margin to separate the text from the image */
+    margin-top: 10px;
 }
+
+.work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.work p {
+    text-align: center;
+    margin: 0; 
+}
+
 
