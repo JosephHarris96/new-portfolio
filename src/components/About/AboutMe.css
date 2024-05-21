@@ -2,3 +2,16 @@
     display: flex;
     justify-content: center;
 }
+
+.about-me-paragraph p:nth-child(1) {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.about-me-paragraph  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
