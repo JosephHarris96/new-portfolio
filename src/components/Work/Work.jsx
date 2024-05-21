@@ -1,5 +1,6 @@
 import React from 'react';
 import './Work.css';
+
 import { workContent } from '../../assets/assets';
 
 const Work = () => {

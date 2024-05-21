@@ -5,6 +5,19 @@
  
 }
 
+.orange-circles {
+  position: relative;
+}
+
+.orange-dot {
+  position: absolute;
+  width: 100px; 
+  height: 100px; 
+  background-color: rgb(219, 248, 255);
+  border-radius: 50%;
+  z-index: -1;
+}
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;

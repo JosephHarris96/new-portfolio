@@ -6,6 +6,7 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import AboutMe from './components/About/AboutMe'
 
+
 function App() {
   return (
     <>
