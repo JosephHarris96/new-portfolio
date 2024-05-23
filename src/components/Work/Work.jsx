@@ -9,7 +9,7 @@ const Work = () => {
         <div className="work-container">
             <div className="work-heading">
                 <h2>My Recent Work</h2>
-                <p>Here are a few pieces of work I have done. Interested to see more? <a>Email Me</a></p>
+                <p>Here are a few pieces of work I have done. Interested to see more? <a> Email Me</a></p>
             </div>
             <div className="work-cards">
                 {workContent.map((workItem, index) => (
